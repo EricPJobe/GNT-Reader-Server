@@ -1,0 +1,5 @@
+type Chapter {
+    chapter_id: ID!
+    book_id: ID
+    num_verses: Int
+}

@@ -1,0 +1,11 @@
+type Word {
+    id: ID!
+    reference: String
+    pos: String
+    parsing: String
+    text: String
+    word: String
+    lemma: String
+    normalized: String
+    gloss: String
+}

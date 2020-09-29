@@ -1,0 +1,5 @@
+type Book {
+    book_id: ID!
+    name: String!
+    num_chapters: Int
+}
