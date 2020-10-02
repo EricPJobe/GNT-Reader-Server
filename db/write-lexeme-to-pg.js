@@ -4,11 +4,7 @@ const { Client } = require('pg');
 const strongsGreekDictionary = require('./strongs-greek-dictionary');
 
 const client = new Client({
-    user: 'postgres',
-    host: 'gnt.cqddaut7kctg.us-east-1.rds.amazonaws.com',
-    database: 'gnt',
-    password: 'gntpostgres',
-    port: 5432
+   
 });
 client.connect();
 
